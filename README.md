@@ -2,7 +2,7 @@
 
 ## Preámbulo
 
-[React](https://reactjs.org/) y [Angular](https://angular.io/)
+[React](https://reactjs.org/),  [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
@@ -39,7 +39,7 @@ Esta es la información que tenemos del cliente:
 
 > Somos **Burguer Queen**, una cadena de comida 24hrs.
 >
-> Nuestra propuesta de servicio 24hrs ha tenido muy buena acogida y, para
+> Nuestra propuesta de servicio 24hrs ha tenido muy buena acogida y para
 > seguir creciendo, necesitamos un sistema que nos ayude a tomar los pedidos de
 > nuestros clientes.
 >
@@ -85,7 +85,7 @@ costo total.
 ## Objetivos de aprendizaje
 
 1. El objetivo principal de es aprender a construir una _interfaz web_ usando
-el _framework_ elegido (React o Angular). Todos estos frameworks de
+el _framework_ elegido (React, Angular o Vue). Todos estos frameworks de
 Front-end atacan el mismo problema: **cómo mantener la interfaz y el estado
 sincronizados**. Así que esta experiencia espera familiarizarte con el concepto
 de _estado de pantalla_, y cómo cada cambio sobre el estado se va a
@@ -102,20 +102,20 @@ proyecto.
 3. Finalmente, la interfaz debe estar diseñada específicamente para correr en
 **tablets**.
 
-Tópicos: _react_, _angular_, _pwa_, _offline-first_, _service-worker_.
+Tópicos: _react_, _angular_,_vue_, _pwa_, _offline-first_, _service-worker_.
 
 ## Consideraciones
 
 Este proyecto se debe "resolver" de forma individual.
 
-Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
+Trabaja en una historia de usuario hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6+), HTML y CSS y empaquetada de manera automatizada.
 En este proyecto Sí está permitido usar librerías o frameworks
-(debes elegir entre [React](https://reactjs.org/) o
-[Angular](https://angular.io/)).
+(debes elegir entre [React](https://reactjs.org/),
+[Angular](https://angular.io/) o [Vue](https://vuejs.org/)).
 
 La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
 _tablet_, pero **no queremos una app nativa**, sino una web app que sea
@@ -365,13 +365,15 @@ cd burger-queen
 
 ***
 
+**Con angular y vue, es similar**
+
 ## Pistas / Tips
 
 ### Frameworks / libraries
 
 * [React](https://reactjs.org/)
 * [Angular](https://angular.io/)
-
+* [Vue](https://vuejs.org/)
 ### Herramientas
 
 * [npm-scripts](https://docs.npmjs.com/misc/scripts)
